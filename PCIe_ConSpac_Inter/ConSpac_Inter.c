@@ -6,7 +6,7 @@ char PCIe_LookUp(int address ,char reg, unsigned short lenth, unsigned char * bu
 void PCIe_InterMess1(void);//遍历pci配置空间并打印出来
 void PCIe_Ls(void);// 显示所有PCIe设备的bus dev func
 
-
+//主函数
 int main(void)
 {
 	unsigned short in_bus,in_dev,in_func,in_reg,in_len;
