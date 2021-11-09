@@ -49,6 +49,7 @@ int main(void)
 * 判断某个地址上是否有PCIe设备
 * 输入: Bus ,dev ,func合成的地址，Register,
 *       访问长度: 1: 1byte 2:word 4:dword 
+* 2021年11月9日
 **/
 char PCIe_InterMess2(int address )
 {
